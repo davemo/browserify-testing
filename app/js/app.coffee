@@ -1,0 +1,1 @@
+hello = require("./hello.coffee")
