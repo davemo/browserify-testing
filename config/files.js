@@ -10,6 +10,10 @@ module.exports = function(lineman) {
   return {
     coffee: {
       entrypoint: "app/js/app.coffee"
+    },
+
+    js: {
+      entrypoint: "app/js/app.js"
     }
 
     // As an example, to override the file patterns for
