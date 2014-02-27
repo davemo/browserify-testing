@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "lineman": "~0.26.0",
-    "lineman-browserify":"linemanjs/lineman-browserify" 
+    "lineman-browserify":"0.0.5"
   },
   "scripts": {
     "start": "lineman run",

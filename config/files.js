@@ -9,11 +9,11 @@ module.exports = function(lineman) {
   //Override file patterns here
   return {
     coffee: {
-      entrypoint: "app/js/app.coffee"
+      browserifyBundle: "app/js/app.coffee"
     },
 
     js: {
-      entrypoint: "app/js/app.js"
+      browserifyBundle: "app/js/app.js"
     }
 
     // As an example, to override the file patterns for
